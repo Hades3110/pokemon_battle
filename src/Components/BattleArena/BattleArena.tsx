@@ -39,6 +39,7 @@ const BattleArena = ({
         if(isBattleOver) {
             addStatistics(player.score > 0);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isBattleOver, player.score]);
 
     return(<div className={styles.container}>
