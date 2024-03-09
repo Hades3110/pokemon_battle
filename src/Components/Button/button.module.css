@@ -1,0 +1,35 @@
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.button.primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 13px 30px;
+}
+
+.button.secondary {
+    background-color: #f44336;
+    color: white;
+}
+
+.button.secondary:hover {
+    background-color: white;
+    color: #f44336;
+    border: 2px solid #f44336;
+    padding: 13px 30px;
+}
